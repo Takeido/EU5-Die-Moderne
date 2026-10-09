@@ -1,0 +1,136 @@
+Nr.,Land / Raum,Bank,Kategorie
+1,USA,JPMorgan Chase,Normale Bank
+2,USA,Bank of America,Normale Bank
+3,USA,Citigroup,Normale Bank
+4,USA,Wells Fargo,Normale Bank
+5,USA,Goldman Sachs,Normale Bank
+6,USA,Morgan Stanley,Normale Bank
+7,USA,BNY Mellon,Normale Bank
+8,USA,State Street,Normale Bank
+9,Kanada,Royal Bank of Canada,Normale Bank
+10,Kanada,Toronto-Dominion Bank,Normale Bank
+11,Kanada,Bank of Nova Scotia,Normale Bank
+12,Kanada,Bank of Montreal,Normale Bank
+13,Kanada,Canadian Imperial Bank of Commerce,Normale Bank
+14,Vereinigtes Königreich,HSBC,Normale Bank
+15,Vereinigtes Königreich,Barclays,Normale Bank
+16,Vereinigtes Königreich,Standard Chartered,Normale Bank
+17,Vereinigtes Königreich,NatWest Group,Normale Bank
+18,Vereinigtes Königreich,Lloyds Banking Group,Normale Bank
+19,Frankreich,BNP Paribas,Normale Bank
+20,Frankreich,Crédit Agricole,Normale Bank
+21,Frankreich,Société Générale,Normale Bank
+22,Frankreich,BPCE / Natixis,Normale Bank
+23,Deutschland,Deutsche Bank,Normale Bank
+24,Deutschland,Commerzbank,Normale Bank
+25,Schweiz,UBS,Normale Bank
+26,Niederlande,ING Group,Normale Bank
+27,Niederlande,ABN AMRO,Normale Bank
+28,Spanien,Banco Santander,Normale Bank
+29,Spanien,BBVA,Normale Bank
+30,Italien,UniCredit,Normale Bank
+31,Italien,Intesa Sanpaolo,Normale Bank
+32,Belgien,KBC Group,Normale Bank
+33,Österreich,Erste Group,Normale Bank
+34,Österreich,Raiffeisen Bank International,Normale Bank
+35,Schweden,SEB,Normale Bank
+36,Schweden,Svenska Handelsbanken,Normale Bank
+37,Schweden,Swedbank,Normale Bank
+38,Finnland,Nordea,Normale Bank
+39,Norwegen,DNB,Normale Bank
+40,Dänemark,Danske Bank,Normale Bank
+41,Japan,Mitsubishi UFJ Financial Group,Normale Bank
+42,Japan,Sumitomo Mitsui Financial Group,Normale Bank
+43,Japan,Mizuho Financial Group,Normale Bank
+44,Japan,Nomura Holdings,Normale Bank
+45,Japan,Daiwa Securities Group,Normale Bank
+46,China,Industrial and Commercial Bank of China,Normale Bank
+47,China,China Construction Bank,Normale Bank
+48,China,Agricultural Bank of China,Normale Bank
+49,China,Bank of China,Normale Bank
+50,China,Bank of Communications,Normale Bank
+51,China,Postal Savings Bank of China,Normale Bank
+52,China,China Merchants Bank,Normale Bank
+53,China,China CITIC Bank,Normale Bank
+54,China,Industrial Bank,Normale Bank
+55,China,Shanghai Pudong Development Bank,Normale Bank
+56,Hongkong,Bank of East Asia,Normale Bank
+57,Hongkong,Hang Seng Bank,Normale Bank
+58,Südkorea,KB Financial Group,Normale Bank
+59,Südkorea,Shinhan Financial Group,Normale Bank
+60,Südkorea,Hana Financial Group,Normale Bank
+61,Südkorea,Woori Financial Group,Normale Bank
+62,Singapur,DBS Group,Normale Bank
+63,Singapur,Oversea-Chinese Banking Corporation,Normale Bank
+64,Singapur,United Overseas Bank,Normale Bank
+65,Australien,Commonwealth Bank of Australia,Normale Bank
+66,Australien,Westpac Banking Corporation,Normale Bank
+67,Australien,Australia and New Zealand Banking Group,Normale Bank
+68,Australien,National Australia Bank,Normale Bank
+69,Indien,HDFC Bank,Normale Bank
+70,Indien,ICICI Bank,Normale Bank
+71,Indien,Axis Bank,Normale Bank
+72,Indien,Kotak Mahindra Bank,Normale Bank
+73,Indonesien,Bank Central Asia,Normale Bank
+74,Indonesien,Bank Mandiri,Normale Bank
+75,Malaysia,Maybank,Normale Bank
+76,Malaysia,CIMB Group,Normale Bank
+77,Thailand,Bangkok Bank,Normale Bank
+78,Philippinen,BDO Unibank,Normale Bank
+79,Brasilien,Itaú Unibanco,Normale Bank
+80,Brasilien,Banco Bradesco,Normale Bank
+81,Brasilien,BTG Pactual,Normale Bank
+82,Mexiko,Grupo Financiero Banorte,Normale Bank
+83,Chile,Banco de Chile,Normale Bank
+84,Kolumbien,Bancolombia,Normale Bank
+85,Argentinien,Banco Galicia,Normale Bank
+86,Südafrika,Standard Bank Group,Normale Bank
+87,Südafrika,FirstRand,Normale Bank
+88,Südafrika,Absa Group,Normale Bank
+89,Saudi-Arabien,Saudi National Bank,Normale Bank
+90,Saudi-Arabien,Al Rajhi Bank,Normale Bank
+91,Vereinigte Arabische Emirate,First Abu Dhabi Bank,Normale Bank
+92,Vereinigte Arabische Emirate,Emirates NBD,Normale Bank
+93,Katar,Qatar National Bank,Normale Bank
+94,Kuwait,National Bank of Kuwait,Normale Bank
+95,Türkei,Garanti BBVA,Normale Bank
+96,Türkei,Akbank,Normale Bank
+97,Türkei,Yapı Kredi,Normale Bank
+98,Israel,Bank Leumi,Normale Bank
+99,Israel,Bank Hapoalim,Normale Bank
+100,Russland,Alfa-Bank,Normale Bank
+101,International,World Bank / IBRD,Staats-/Entwicklungsbank
+102,International,International Finance Corporation,Staats-/Entwicklungsbank
+103,International,International Development Association,Staats-/Entwicklungsbank
+104,International,International Monetary Fund,Staats-/Entwicklungsbank
+105,Europa,European Investment Bank,Staats-/Entwicklungsbank
+106,Europa,European Bank for Reconstruction and Development,Staats-/Entwicklungsbank
+107,Asien,Asian Development Bank,Staats-/Entwicklungsbank
+108,Asien,Asian Infrastructure Investment Bank,Staats-/Entwicklungsbank
+109,Afrika,African Development Bank,Staats-/Entwicklungsbank
+110,Lateinamerika,Inter-American Development Bank,Staats-/Entwicklungsbank
+111,BRICS,New Development Bank,Staats-/Entwicklungsbank
+112,Deutschland,Deutsche Bundesbank,Staats-/Entwicklungsbank
+113,Deutschland,KfW,Staats-/Entwicklungsbank
+114,Frankreich,Banque de France,Staats-/Entwicklungsbank
+115,Frankreich,Caisse des Dépôts et Consignations,Staats-/Entwicklungsbank
+116,Vereinigtes Königreich,Bank of England,Staats-/Entwicklungsbank
+117,USA,Federal Reserve System,Staats-/Entwicklungsbank
+118,Kanada,Bank of Canada,Staats-/Entwicklungsbank
+119,Japan,Bank of Japan,Staats-/Entwicklungsbank
+120,Japan,Japan Bank for International Cooperation,Staats-/Entwicklungsbank
+121,China,People's Bank of China,Staats-/Entwicklungsbank
+122,China,China Development Bank,Staats-/Entwicklungsbank
+123,China,Export-Import Bank of China,Staats-/Entwicklungsbank
+124,Indien,Reserve Bank of India,Staats-/Entwicklungsbank
+125,Indien,State Bank of India,Staats-/Entwicklungsbank
+126,Brasilien,Banco Central do Brasil,Staats-/Entwicklungsbank
+127,Brasilien,Banco do Brasil,Staats-/Entwicklungsbank
+128,Brasilien,BNDES,Staats-/Entwicklungsbank
+129,Russland,Central Bank of Russia,Staats-/Entwicklungsbank
+130,Russland,VEB.RF,Staats-/Entwicklungsbank
+131,Südkorea,Bank of Korea,Staats-/Entwicklungsbank
+132,Südkorea,Korea Development Bank,Staats-/Entwicklungsbank
+133,Südafrika,South African Reserve Bank,Staats-/Entwicklungsbank
+134,Südafrika,Development Bank of Southern Africa,Staats-/Entwicklungsbank
+135,Türkei,Central Bank of the Republic of Türkiye,Staats-/Entwicklungsbank

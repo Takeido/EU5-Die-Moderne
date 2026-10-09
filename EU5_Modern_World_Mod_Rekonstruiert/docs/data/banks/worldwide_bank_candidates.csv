@@ -1,0 +1,380 @@
+Land / Währungsraum,Bank,Typ
+Deutschland,Deutsche Bundesbank,Staatsbank
+Deutschland,Deutsche Bank,Normale Bank
+Deutschland,Commerzbank,Normale Bank
+Deutschland,Sparkassen,Normale Bank
+Frankreich,Banque de France,Staatsbank
+Frankreich,BNP Paribas,Normale Bank
+Frankreich,Société Générale,Normale Bank
+Vereinigtes Königreich,Bank of England,Staatsbank
+Vereinigtes Königreich,HSBC,Normale Bank
+Vereinigtes Königreich,Barclays,Normale Bank
+Vereinigtes Königreich,Lloyds Banking Group,Normale Bank
+Vereinigtes Königreich,Royal Bank of Scotland,Normale Bank
+Italien,Banca d’Italia,Staatsbank
+Italien,UniCredit,Normale Bank
+Italien,Banca Monte dei Paschi di Siena,Normale Bank
+Italien,Banca Sella,Normale Bank
+Spanien,Banco de España,Staatsbank
+Spanien,Banco Santander,Normale Bank
+Spanien,BBVA,Normale Bank
+Spanien,CaixaBank,Normale Bank
+Spanien,Banco Sabadell,Normale Bank
+Spanien,Bankinter,Normale Bank
+Spanien,Unicaja Banco,Normale Bank
+Niederlande,De Nederlandsche Bank,Staatsbank
+Niederlande,ING Group,Normale Bank
+Belgien,Nationale Bank van België / Banque nationale de Belgique,Staatsbank
+Belgien,KBC Group,Normale Bank
+,,
+Belgien,BNP Paribas Fortis,Normale Bank
+Luxemburg,Banque centrale du Luxembourg,Staatsbank
+Luxemburg,Banque Internationale à Luxembourg,Normale Bank
+,,
+,,
+,,
+Schweiz,UBS,Normale Bank
+Schweiz,Julius Bär,Normale Bank
+Schweiz,Pictet Group,Normale Bank
+Schweiz,Lombard Odier,Normale Bank
+,,
+,,
+Österreich,Oesterreichische Nationalbank,Staatsbank
+Österreich,Erste Group Bank,Normale Bank
+,,
+Österreich,BAWAG Group,Normale Bank
+Österreich,UniCredit Bank Austria,Normale Bank
+Österreich,Oberbank,Normale Bank
+Polen,Narodowy Bank Polski,Staatsbank
+Polen,PKO Bank Polski,Normale Bank
+Polen,Bank Pekao,Normale Bank
+Polen,Santander Bank Polska,Normale Bank
+Polen,mBank,Normale Bank
+Polen,ING Bank Śląski,Normale Bank
+Polen,Alior Bank,Normale Bank
+Tschechien,Česká národní banka,Staatsbank
+Tschechien,Česká spořitelna,Normale Bank
+Tschechien,ČSOB,Normale Bank
+Tschechien,Komerční banka,Normale Bank
+Tschechien,UniCredit Bank Czech Republic and Slovakia,Normale Bank
+Tschechien,Raiffeisenbank Czech Republic,Normale Bank
+Slowakei,Národná banka Slovenska,Staatsbank
+Slowakei,Slovenská sporiteľňa,Normale Bank
+Slowakei,VÚB banka,Normale Bank
+Slowakei,Tatra banka,Normale Bank
+Ungarn,Magyar Nemzeti Bank,Staatsbank
+Ungarn,OTP Bank,Normale Bank
+Ungarn,MBH Bank,Normale Bank
+Ungarn,K&H Bank,Normale Bank
+Ungarn,Erste Bank Hungary,Normale Bank
+Rumänien,Banca Națională a României,Staatsbank
+Rumänien,Banca Transilvania,Normale Bank
+Rumänien,Banca Comercială Română,Normale Bank
+Rumänien,BRD – Groupe Société Générale,Normale Bank
+Rumänien,CEC Bank,Normale Bank
+Rumänien,Raiffeisen Bank Romania,Normale Bank
+Bulgarien,Bulgarische Nationalbank,Staatsbank
+Bulgarien,UniCredit Bulbank,Normale Bank
+Bulgarien,DSK Bank,Normale Bank
+Bulgarien,United Bulgarian Bank,Normale Bank
+Bulgarien,First Investment Bank,Normale Bank
+Griechenland,Bank of Greece,Staatsbank
+Griechenland,National Bank of Greece,Normale Bank
+Griechenland,Piraeus Bank,Normale Bank
+Griechenland,Eurobank Ergasias,Normale Bank
+Griechenland,Alpha Bank,Normale Bank
+Portugal,Banco de Portugal,Staatsbank
+Portugal,Caixa Geral de Depósitos,Normale Bank
+Portugal,Millennium BCP,Normale Bank
+Portugal,Novo Banco,Normale Bank
+Portugal,Banco BPI,Normale Bank
+Irland,Central Bank of Ireland,Staatsbank
+Irland,AIB Group,Normale Bank
+Irland,Bank of Ireland,Normale Bank
+Irland,Permanent TSB,Normale Bank
+Dänemark,Danmarks Nationalbank,Staatsbank
+Dänemark,Danske Bank,Normale Bank
+Dänemark,Nykredit,Normale Bank
+Dänemark,Jyske Bank,Normale Bank
+Dänemark,Sydbank,Normale Bank
+Schweden,Sveriges Riksbank,Staatsbank
+Schweden,SEB,Normale Bank
+Schweden,Svenska Handelsbanken,Normale Bank
+Schweden,Swedbank,Normale Bank
+Schweden,Nordea,Normale Bank
+Norwegen,Norges Bank,Staatsbank
+Norwegen,DNB,Normale Bank
+Norwegen,SpareBank 1 Gruppen,Normale Bank
+Norwegen,Nordea Norway,Normale Bank
+Finnland,Bank of Finland,Staatsbank
+Finnland,OP Financial Group,Normale Bank
+Finnland,Nordea Finland,Normale Bank
+Finnland,Danske Bank Finland,Normale Bank
+Island,Central Bank of Iceland,Staatsbank
+Island,Landsbankinn,Normale Bank
+Island,Íslandsbanki,Normale Bank
+Island,Arion Bank,Normale Bank
+Türkei,Türkiye Cumhuriyet Merkez Bankası,Staatsbank
+Türkei,Ziraat Bankası,Normale Bank
+Türkei,Türkiye İş Bankası,Normale Bank
+Türkei,Garanti BBVA,Normale Bank
+Türkei,Akbank,Normale Bank
+Türkei,Yapı Kredi,Normale Bank
+Türkei,VakıfBank,Normale Bank
+Türkei,Halkbank,Normale Bank
+Russland,Bank of Russia,Staatsbank
+Russland,Sberbank,Normale Bank
+Russland,VTB Bank,Normale Bank
+Russland,Gazprombank,Normale Bank
+Russland,Alfa-Bank,Normale Bank
+Russland,T-Bank,Normale Bank
+Russland,Rosselkhozbank,Normale Bank
+Russland,Sovcombank,Normale Bank
+Ukraine,National Bank of Ukraine,Staatsbank
+Ukraine,PrivatBank,Normale Bank
+Ukraine,Oschadbank,Normale Bank
+Ukraine,Ukreximbank,Normale Bank
+Ukraine,Raiffeisen Bank Ukraine,Normale Bank
+Ukraine,PUMB,Normale Bank
+Vereinigte Staaten,Federal Reserve System,Staatsbank
+Vereinigte Staaten,JPMorgan Chase,Normale Bank
+Vereinigte Staaten,Bank of America,Normale Bank
+Vereinigte Staaten,Citigroup,Normale Bank
+Vereinigte Staaten,Wells Fargo,Normale Bank
+Vereinigte Staaten,Goldman Sachs,Normale Bank
+Vereinigte Staaten,Morgan Stanley,Normale Bank
+Vereinigte Staaten,U.S. Bancorp,Normale Bank
+Vereinigte Staaten,PNC Financial Services,Normale Bank
+Vereinigte Staaten,Truist Financial,Normale Bank
+Vereinigte Staaten,Capital One,Normale Bank
+Vereinigte Staaten,Bank of New York Mellon,Normale Bank
+Vereinigte Staaten,State Street,Normale Bank
+Vereinigte Staaten,American Express National Bank,Normale Bank
+Kanada,Bank of Canada,Staatsbank
+Kanada,Royal Bank of Canada,Normale Bank
+Kanada,Toronto-Dominion Bank,Normale Bank
+Kanada,Bank of Nova Scotia,Normale Bank
+Kanada,Bank of Montreal,Normale Bank
+Kanada,Canadian Imperial Bank of Commerce,Normale Bank
+Kanada,National Bank of Canada,Normale Bank
+Kanada,Desjardins Group,Normale Bank
+Mexiko,Banco de México,Staatsbank
+Mexiko,BBVA México,Normale Bank
+Mexiko,Banorte,Normale Bank
+Mexiko,Santander México,Normale Bank
+Mexiko,Citibanamex,Normale Bank
+Mexiko,HSBC México,Normale Bank
+Mexiko,Banco Azteca,Normale Bank
+Brasilien,Banco Central do Brasil,Staatsbank
+Brasilien,Itaú Unibanco,Normale Bank
+Brasilien,Banco do Brasil,Normale Bank
+Brasilien,Bradesco,Normale Bank
+Brasilien,Caixa Econômica Federal,Normale Bank
+Brasilien,Banco Santander Brasil,Normale Bank
+Brasilien,BTG Pactual,Normale Bank
+Brasilien,Banco Safra,Normale Bank
+Brasilien,BNDES,Normale Bank
+Argentinien,Banco Central de la República Argentina,Staatsbank
+Argentinien,Banco de la Nación Argentina,Normale Bank
+Argentinien,Banco Galicia,Normale Bank
+Argentinien,Banco Macro,Normale Bank
+Argentinien,BBVA Argentina,Normale Bank
+Argentinien,Banco Santander Argentina,Normale Bank
+Chile,Banco Central de Chile,Staatsbank
+Chile,Banco de Chile,Normale Bank
+Chile,Banco Santander Chile,Normale Bank
+Chile,BancoEstado,Normale Bank
+Chile,Banco de Crédito e Inversiones,Normale Bank
+Chile,Scotiabank Chile,Normale Bank
+Kolumbien,Banco de la República,Staatsbank
+Kolumbien,Bancolombia,Normale Bank
+Kolumbien,Banco de Bogotá,Normale Bank
+Kolumbien,Davivienda,Normale Bank
+Kolumbien,BBVA Colombia,Normale Bank
+Kolumbien,Banco de Occidente,Normale Bank
+Peru,Banco Central de Reserva del Perú,Staatsbank
+Peru,Banco de Crédito del Perú,Normale Bank
+Peru,BBVA Perú,Normale Bank
+Peru,Scotiabank Perú,Normale Bank
+Peru,Interbank,Normale Bank
+Peru,Banco de la Nación,Normale Bank
+China,People’s Bank of China,Staatsbank
+China,Industrial and Commercial Bank of China,Normale Bank
+China,China Construction Bank,Normale Bank
+China,Agricultural Bank of China,Normale Bank
+China,Bank of China,Normale Bank
+China,Bank of Communications,Normale Bank
+China,Postal Savings Bank of China,Normale Bank
+China,China Merchants Bank,Normale Bank
+China,China Development Bank,Normale Bank
+China,Export-Import Bank of China,Normale Bank
+China,CITIC Bank,Normale Bank
+China,Industrial Bank,Normale Bank
+Japan,Bank of Japan,Staatsbank
+Japan,Mitsubishi UFJ Financial Group,Normale Bank
+Japan,Sumitomo Mitsui Financial Group,Normale Bank
+Japan,Mizuho Financial Group,Normale Bank
+Japan,Japan Post Bank,Normale Bank
+Japan,Resona Holdings,Normale Bank
+Japan,Norinchukin Bank,Normale Bank
+Japan,Nomura Holdings,Normale Bank
+Japan,Daiwa Securities Group,Normale Bank
+Japan,Japan Bank for International Cooperation,Normale Bank
+Südkorea,Bank of Korea,Staatsbank
+Südkorea,KB Financial Group,Normale Bank
+Südkorea,Shinhan Financial Group,Normale Bank
+Südkorea,Hana Financial Group,Normale Bank
+Südkorea,Woori Financial Group,Normale Bank
+Südkorea,NH NongHyup Financial Group,Normale Bank
+Südkorea,Industrial Bank of Korea,Normale Bank
+Südkorea,Korea Development Bank,Normale Bank
+Indien,Reserve Bank of India,Staatsbank
+Indien,State Bank of India,Normale Bank
+Indien,HDFC Bank,Normale Bank
+Indien,ICICI Bank,Normale Bank
+Indien,Punjab National Bank,Normale Bank
+Indien,Bank of Baroda,Normale Bank
+Indien,Axis Bank,Normale Bank
+Indien,Canara Bank,Normale Bank
+Indien,Union Bank of India,Normale Bank
+Indien,Kotak Mahindra Bank,Normale Bank
+Indien,IndusInd Bank,Normale Bank
+Indien,IDBI Bank,Normale Bank
+Pakistan,State Bank of Pakistan,Staatsbank
+Pakistan,Habib Bank,Normale Bank
+Pakistan,National Bank of Pakistan,Normale Bank
+Pakistan,United Bank,Normale Bank
+Pakistan,MCB Bank,Normale Bank
+Pakistan,Meezan Bank,Normale Bank
+Pakistan,Allied Bank,Normale Bank
+Bangladesch,Bangladesh Bank,Staatsbank
+Bangladesch,Sonali Bank,Normale Bank
+Bangladesch,Islami Bank Bangladesh,Normale Bank
+Bangladesch,BRAC Bank,Normale Bank
+Bangladesch,Dutch-Bangla Bank,Normale Bank
+Bangladesch,Agrani Bank,Normale Bank
+Indonesien,Bank Indonesia,Staatsbank
+Indonesien,Bank Rakyat Indonesia,Normale Bank
+Indonesien,Bank Mandiri,Normale Bank
+Indonesien,Bank Central Asia,Normale Bank
+Indonesien,Bank Negara Indonesia,Normale Bank
+Indonesien,Bank Tabungan Negara,Normale Bank
+Indonesien,CIMB Niaga,Normale Bank
+Malaysia,Bank Negara Malaysia,Staatsbank
+Malaysia,Maybank,Normale Bank
+Malaysia,CIMB Group,Normale Bank
+Malaysia,Public Bank Berhad,Normale Bank
+Malaysia,RHB Bank,Normale Bank
+Malaysia,Hong Leong Bank,Normale Bank
+Malaysia,AmBank,Normale Bank
+Singapur,Monetary Authority of Singapore,Staatsbank
+Singapur,DBS Bank,Normale Bank
+Singapur,OCBC Bank,Normale Bank
+Singapur,United Overseas Bank,Normale Bank
+Thailand,Bank of Thailand,Staatsbank
+Thailand,Bangkok Bank,Normale Bank
+Thailand,Kasikornbank,Normale Bank
+Thailand,Krung Thai Bank,Normale Bank
+Thailand,Siam Commercial Bank,Normale Bank
+Thailand,Bank of Ayudhya,Normale Bank
+Thailand,TMBThanachart Bank,Normale Bank
+Vietnam,State Bank of Vietnam,Staatsbank
+Vietnam,Vietcombank,Normale Bank
+Vietnam,BIDV,Normale Bank
+Vietnam,VietinBank,Normale Bank
+Vietnam,Agribank,Normale Bank
+Vietnam,Techcombank,Normale Bank
+Vietnam,VPBank,Normale Bank
+Vietnam,Military Commercial Joint Stock Bank,Normale Bank
+Philippinen,Bangko Sentral ng Pilipinas,Staatsbank
+Philippinen,BDO Unibank,Normale Bank
+Philippinen,Metropolitan Bank & Trust Company,Normale Bank
+Philippinen,Bank of the Philippine Islands,Normale Bank
+Philippinen,Land Bank of the Philippines,Normale Bank
+Philippinen,Philippine National Bank,Normale Bank
+Philippinen,Security Bank,Normale Bank
+Australien,Reserve Bank of Australia,Staatsbank
+Australien,Commonwealth Bank of Australia,Normale Bank
+Australien,Westpac Banking Corporation,Normale Bank
+Australien,National Australia Bank,Normale Bank
+Australien,ANZ Group,Normale Bank
+Australien,Macquarie Group,Normale Bank
+Neuseeland,Reserve Bank of New Zealand,Staatsbank
+Neuseeland,ANZ Bank New Zealand,Normale Bank
+Neuseeland,ASB Bank,Normale Bank
+Neuseeland,Bank of New Zealand,Normale Bank
+Neuseeland,Westpac New Zealand,Normale Bank
+Neuseeland,Kiwibank,Normale Bank
+Saudi-Arabien,Saudi Central Bank,Staatsbank
+Saudi-Arabien,Saudi National Bank,Normale Bank
+Saudi-Arabien,Al Rajhi Bank,Normale Bank
+Saudi-Arabien,Riyad Bank,Normale Bank
+Saudi-Arabien,Saudi Awwal Bank,Normale Bank
+Saudi-Arabien,Banque Saudi Fransi,Normale Bank
+Saudi-Arabien,Arab National Bank,Normale Bank
+Vereinigte Arabische Emirate,Central Bank of the United Arab Emirates,Staatsbank
+Vereinigte Arabische Emirate,First Abu Dhabi Bank,Normale Bank
+Vereinigte Arabische Emirate,Emirates NBD,Normale Bank
+Vereinigte Arabische Emirate,Abu Dhabi Commercial Bank,Normale Bank
+Vereinigte Arabische Emirate,Mashreqbank,Normale Bank
+Vereinigte Arabische Emirate,Dubai Islamic Bank,Normale Bank
+Vereinigte Arabische Emirate,Abu Dhabi Islamic Bank,Normale Bank
+Katar,Qatar Central Bank,Staatsbank
+Katar,Qatar National Bank,Normale Bank
+Katar,Qatar Islamic Bank,Normale Bank
+Katar,Commercial Bank of Qatar,Normale Bank
+Katar,Masraf Al Rayan,Normale Bank
+Kuwait,Central Bank of Kuwait,Staatsbank
+Kuwait,National Bank of Kuwait,Normale Bank
+Kuwait,Kuwait Finance House,Normale Bank
+Kuwait,Gulf Bank,Normale Bank
+Kuwait,Boubyan Bank,Normale Bank
+Israel,Bank of Israel,Staatsbank
+Israel,Bank Leumi,Normale Bank
+Israel,Bank Hapoalim,Normale Bank
+Israel,Mizrahi-Tefahot Bank,Normale Bank
+Israel,Israel Discount Bank,Normale Bank
+Israel,First International Bank of Israel,Normale Bank
+Iran,Central Bank of the Islamic Republic of Iran,Staatsbank
+Iran,Bank Melli Iran,Normale Bank
+Iran,Bank Mellat,Normale Bank
+Iran,Bank Saderat Iran,Normale Bank
+Iran,Bank Sepah,Normale Bank
+Iran,Tejarat Bank,Normale Bank
+Iran,Pasargad Bank,Normale Bank
+Ägypten,Central Bank of Egypt,Staatsbank
+Ägypten,National Bank of Egypt,Normale Bank
+Ägypten,Banque Misr,Normale Bank
+Ägypten,Commercial International Bank,Normale Bank
+Ägypten,QNB Alahli,Normale Bank
+Ägypten,Arab African International Bank,Normale Bank
+Südafrika,South African Reserve Bank,Staatsbank
+Südafrika,Standard Bank Group,Normale Bank
+Südafrika,FirstRand,Normale Bank
+Südafrika,Absa Group,Normale Bank
+Südafrika,Nedbank Group,Normale Bank
+Südafrika,Investec,Normale Bank
+Südafrika,Capitec Bank,Normale Bank
+Nigeria,Central Bank of Nigeria,Staatsbank
+Nigeria,Access Bank,Normale Bank
+Nigeria,Zenith Bank,Normale Bank
+Nigeria,United Bank for Africa,Normale Bank
+Nigeria,First Bank of Nigeria,Normale Bank
+Nigeria,Guaranty Trust Bank,Normale Bank
+Nigeria,Ecobank Nigeria,Normale Bank
+Kenia,Central Bank of Kenya,Staatsbank
+Kenia,KCB Group,Normale Bank
+Kenia,Equity Group Holdings,Normale Bank
+Kenia,Co-operative Bank of Kenya,Normale Bank
+Kenia,NCBA Group,Normale Bank
+Kenia,Absa Bank Kenya,Normale Bank
+Marokko,Bank Al-Maghrib,Staatsbank
+Marokko,Attijariwafa Bank,Normale Bank
+Marokko,Banque Centrale Populaire,Normale Bank
+Marokko,Bank of Africa Morocco,Normale Bank
+Marokko,Crédit du Maroc,Normale Bank
+Algerien,Bank of Algeria,Staatsbank
+Algerien,Banque Nationale d’Algérie,Normale Bank
+Algerien,Crédit Populaire d’Algérie,Normale Bank
+Algerien,Banque Extérieure d’Algérie,Normale Bank
+Algerien,Banque de l’Agriculture et du Développement Rural,Normale Bank

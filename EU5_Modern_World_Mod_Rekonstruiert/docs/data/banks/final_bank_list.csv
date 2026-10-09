@@ -1,0 +1,101 @@
+Entity ID,Land / Währungsraum,Bank,Kategorie
+BANK_001,Vereinigte Staaten,JPMorgan Chase,Normale Bank
+BANK_002,Vereinigte Staaten,Bank of America,Normale Bank
+BANK_003,Vereinigte Staaten,Citigroup,Normale Bank
+BANK_004,Vereinigte Staaten,Wells Fargo,Normale Bank
+BANK_005,Vereinigte Staaten,Goldman Sachs,Normale Bank
+BANK_006,Vereinigte Staaten,Morgan Stanley,Normale Bank
+BANK_007,Vereinigte Staaten,Bank of New York Mellon,Normale Bank
+BANK_008,Vereinigte Staaten,State Street,Normale Bank
+BANK_009,Kanada,Royal Bank of Canada,Normale Bank
+BANK_010,Kanada,Toronto-Dominion Bank,Normale Bank
+BANK_011,Kanada,Bank of Nova Scotia,Normale Bank
+BANK_012,Kanada,Bank of Montreal,Normale Bank
+BANK_013,Kanada,Canadian Imperial Bank of Commerce,Normale Bank
+BANK_014,Vereinigtes Königreich,HSBC,Normale Bank
+BANK_015,Vereinigtes Königreich,Barclays,Normale Bank
+BANK_016,Vereinigtes Königreich,Standard Chartered,Normale Bank
+BANK_017,Vereinigtes Königreich,NatWest Group,Normale Bank
+BANK_018,Frankreich,BNP Paribas,Normale Bank
+BANK_019,Frankreich,Crédit Agricole,Normale Bank
+BANK_020,Frankreich,Société Générale,Normale Bank
+BANK_021,Deutschland,Deutsche Bank,Normale Bank
+BANK_022,Deutschland,Commerzbank,Normale Bank
+BANK_023,Schweiz,UBS,Normale Bank
+BANK_024,Niederlande,ING Group,Normale Bank
+BANK_025,Niederlande,ABN AMRO,Normale Bank
+BANK_026,Spanien,Banco Santander,Normale Bank
+BANK_027,Spanien,BBVA,Normale Bank
+BANK_028,Italien,UniCredit,Normale Bank
+BANK_029,Italien,Intesa Sanpaolo,Normale Bank
+BANK_030,Belgien,KBC Group,Normale Bank
+BANK_031,Österreich,Erste Group Bank,Normale Bank
+BANK_032,Österreich,Raiffeisen Bank International,Normale Bank
+BANK_033,Schweden,SEB,Normale Bank
+BANK_034,Schweden,Svenska Handelsbanken,Normale Bank
+BANK_035,Schweden,Swedbank,Normale Bank
+BANK_036,Finnland,Nordea,Normale Bank
+BANK_037,Norwegen,DNB,Normale Bank
+BANK_038,Japan,Mitsubishi UFJ Financial Group,Normale Bank
+BANK_039,Japan,Sumitomo Mitsui Financial Group,Normale Bank
+BANK_040,Japan,Mizuho Financial Group,Normale Bank
+BANK_041,Japan,Nomura Holdings,Normale Bank
+BANK_042,Südkorea,KB Financial Group,Normale Bank
+BANK_043,Südkorea,Shinhan Financial Group,Normale Bank
+BANK_044,Südkorea,Hana Financial Group,Normale Bank
+BANK_045,Südkorea,Woori Financial Group,Normale Bank
+BANK_046,Singapur,DBS Bank,Normale Bank
+BANK_047,Singapur,OCBC Bank,Normale Bank
+BANK_048,Singapur,United Overseas Bank,Normale Bank
+BANK_049,Australien,Commonwealth Bank of Australia,Normale Bank
+BANK_050,Australien,Westpac Banking Corporation,Normale Bank
+BANK_051,Australien,ANZ Group,Normale Bank
+BANK_052,Australien,National Australia Bank,Normale Bank
+BANK_053,Australien,Macquarie Group,Normale Bank
+BANK_054,China,Industrial and Commercial Bank of China,Normale Bank
+BANK_055,China,China Construction Bank,Normale Bank
+BANK_056,China,Agricultural Bank of China,Normale Bank
+BANK_057,China,Bank of China,Normale Bank
+BANK_058,China,Bank of Communications,Normale Bank
+BANK_059,China,China Merchants Bank,Normale Bank
+BANK_060,Brasilien,Itaú Unibanco,Normale Bank
+BANK_061,Brasilien,Bradesco,Normale Bank
+BANK_062,Brasilien,BTG Pactual,Normale Bank
+BANK_063,Mexiko,Banorte,Normale Bank
+BANK_064,Indien,HDFC Bank,Normale Bank
+BANK_065,Indien,ICICI Bank,Normale Bank
+BANK_066,Indien,Axis Bank,Normale Bank
+BANK_067,Türkei,Garanti BBVA,Normale Bank
+BANK_068,Türkei,Akbank,Normale Bank
+BANK_069,Südafrika,Standard Bank Group,Normale Bank
+BANK_070,Südafrika,FirstRand,Normale Bank
+BANK_071,Vereinigte Staaten,Federal Reserve System,Zentral-/Staats-/Entwicklungsbank
+BANK_072,Eurozone,Europäische Zentralbank,Zentral-/Staats-/Entwicklungsbank
+BANK_073,Vereinigtes Königreich,Bank of England,Zentral-/Staats-/Entwicklungsbank
+BANK_074,Japan,Bank of Japan,Zentral-/Staats-/Entwicklungsbank
+BANK_075,China,People’s Bank of China,Zentral-/Staats-/Entwicklungsbank
+BANK_076,Indien,Reserve Bank of India,Zentral-/Staats-/Entwicklungsbank
+BANK_077,Russland,Bank of Russia,Zentral-/Staats-/Entwicklungsbank
+BANK_078,Kanada,Bank of Canada,Zentral-/Staats-/Entwicklungsbank
+BANK_079,Australien,Reserve Bank of Australia,Zentral-/Staats-/Entwicklungsbank
+BANK_080,Brasilien,Banco Central do Brasil,Zentral-/Staats-/Entwicklungsbank
+BANK_081,Südafrika,South African Reserve Bank,Zentral-/Staats-/Entwicklungsbank
+BANK_082,Saudi-Arabien,Saudi Central Bank,Zentral-/Staats-/Entwicklungsbank
+BANK_083,Vereinigte Arabische Emirate,Central Bank of the United Arab Emirates,Zentral-/Staats-/Entwicklungsbank
+BANK_084,Singapur,Monetary Authority of Singapore,Zentral-/Staats-/Entwicklungsbank
+BANK_085,Südkorea,Bank of Korea,Zentral-/Staats-/Entwicklungsbank
+BANK_086,China,China Development Bank,Zentral-/Staats-/Entwicklungsbank
+BANK_087,China,Export-Import Bank of China,Zentral-/Staats-/Entwicklungsbank
+BANK_088,Indien,State Bank of India,Zentral-/Staats-/Entwicklungsbank
+BANK_089,Brasilien,Banco do Brasil,Zentral-/Staats-/Entwicklungsbank
+BANK_090,Brasilien,BNDES,Zentral-/Staats-/Entwicklungsbank
+BANK_091,Deutschland,KfW Bankengruppe,Zentral-/Staats-/Entwicklungsbank
+BANK_092,Frankreich,Caisse des Dépôts et Consignations,Zentral-/Staats-/Entwicklungsbank
+BANK_093,Japan,Japan Bank for International Cooperation,Zentral-/Staats-/Entwicklungsbank
+BANK_094,Südkorea,Korea Development Bank,Zentral-/Staats-/Entwicklungsbank
+BANK_095,Russland,VEB.RF,Zentral-/Staats-/Entwicklungsbank
+BANK_096,Europäische Union,European Investment Bank,Zentral-/Staats-/Entwicklungsbank
+BANK_097,Europa / Transformationsstaaten,European Bank for Reconstruction and Development,Zentral-/Staats-/Entwicklungsbank
+BANK_098,Global,World Bank Group,Zentral-/Staats-/Entwicklungsbank
+BANK_099,Asien,Asian Development Bank,Zentral-/Staats-/Entwicklungsbank
+BANK_100,Global / Schwellenländer,New Development Bank,Zentral-/Staats-/Entwicklungsbank
