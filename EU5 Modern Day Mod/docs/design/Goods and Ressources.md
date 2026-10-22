@@ -2,345 +2,187 @@
 
 **Project:** EU5 Modern World Mod  
 **Campaign start:** 1 January 1993  
-**Status:** Authoritative goods, resources, and production-chain design document  
-**Scope:** RGOs and natural resources; processed, intermediate, production, and consumer goods; production methods and chains from the RGO to the final consumer.
+**Scope:** Raw resources, processed goods, production principles, and established basic production chains.
 
-This document is the source of truth for goods and resource decisions, migrated from Economic System Foundations at the owner's request. APPROVED and LOCKED decisions retain their status; proposals and undecided details remain PENDING. No new good or production chain is approved merely by being mentioned as a possible use.
+The goods catalogue contains **78 raw materials** and **42 processed, intermediate, and final goods**. Only established catalogue entries and design rules are listed here. Applications describe the scope of a resource or good; they do not define complete production recipes. Detailed recipes, quantities, technologies, buildings, demand, and distribution mechanics are specified only where explicitly stated.
 
-We will design each relevant chain here from the raw resource/RGO through processing and any approved intermediate goods to the final product and its final consumer. Missing stages, consumer assignments, buildings, production methods, quantities, and technologies remain PENDING until individually decided. The individual review of all existing and new secondary goods continues here. Entries 1–50 have been reviewed; Coke (entry 29) is removed as a separate trade good. Lacquerware (entry 10) and Naval Supplies (entry 14) are explicitly deferred and PENDING. Slaves (entry 18) is retained provisionally for separate, careful review; its implementation remains PENDING. In the current review block (51–60), entries 51–53 and 60 are removed as separate goods; entries 54–59 remain PENDING for explanation and individual decisions. Present goods in batches of ten as requested by the owner.
+Monetary conversion, Gold Cap accounting, and general economic circulation follow [Economic System Foundations](<EU5 Modern World Mod – Economic System Foundations.md>).
 
-Monetary conversion, Gold Cap accounting, and general economic circulation remain authoritative in [Economic System Foundations](<EU5 Modern World Mod – Economic System Foundations.md>). All monetary values designed here must follow that document's monetary rules.
+## 1. Economic and Production Principles
 
-1. Goods, Production, and Building Design Process
-1.1 Agreed Design Sequence [APPROVED]
+### EU5 Compatibility
 
-The detailed goods and production framework will be designed in the following order:
+Preserve existing EU5 economic structures wherever possible. Modern economic functions are represented through goods, buildings, production relationships, modifiers, and scripted systems. Deeper mechanical changes are reserved for essential functions that the existing framework cannot adequately represent.
 
-1. Define the raw goods and natural resources represented in the mod.
-2. Define processed, intermediate, and final goods.
-3. Define the production chains connecting those goods.
-4. Define the buildings and EU5 production structures that represent those chains.
-5. Review agriculture, energy, services, infrastructure, construction, trade, and modernization within the resulting framework.
+### Goods and Production Methods
 
-This order is intended to prevent buildings from being designed before their economic inputs, outputs, and gameplay purpose are known.
+A distinct good represents a meaningful economic category, geographic dependency, strategic bottleneck, production chain, or policy problem. Broad categories such as Lumber, Livestock, Fruit, Rare Earth Elements, and Specialty Ores remain grouped.
 
-1.2 EU5 Compatibility Principle [APPROVED]
+**Binding rule:** Differences in quality, technology, efficiency, production process, material composition, recycling, and automation are represented through production methods wherever possible. Steel, Aluminium, Paper, Glass, Cement, and Rubber each remain single goods. Cloth and Fine Cloth are two distinct goods.
 
-The design should preserve existing EU5 economic structures wherever possible. New goods, buildings, production relationships, modifiers, and scripted systems should be preferred over replacing core EU5 mechanics. A deeper mechanical change should be proposed only when the existing framework cannot represent an essential modern economic function adequately.
+Production methods can change material inputs, energy sources, output, costs, labor requirements, and other defined gameplay effects. Steel methods can use different combinations of Iron, Coal, Electricity, Nickel, Chromium, Molybdenum, Tungsten, Manganese, and other suitable established inputs. The basic Steel chain uses Iron with Coal and/or Electricity; Manganese is not established as a mandatory basic input.
 
-1.3 Decision Procedure
+### Production-Chain Depth
 
-Each proposed good will be reviewed individually or in a coherent group. For every proposal, the design must determine:
+Production chains have no fixed number of stages. A distinct intermediate good has independent strategic or economic importance, meaningful trade or stockpiling, or a role across several industries. Processing without an independent market is abstracted within production methods.
 
-• whether it deserves representation as a distinct EU5 good;
-• whether it should be merged into a broader category;
-• whether it is a raw, intermediate, final, strategic, military, subsistence, or luxury good;
-• which locations can produce it;
-• which buildings or production methods consume and produce it;
-• whether its separate representation creates meaningful gameplay rather than unnecessary complexity.
+### Material Substitution
 
-No undecided proposal is considered locked. Approved decisions will be recorded in this document as the discussion proceeds.
+Where realistic, production methods offer alternative combinations of established materials for the same output. Methods may differ in quantities, efficiency, costs, technology, availability, and energy requirements.
 
-1.4 Current Work Stage
+Textile and clothing production can draw on suitable combinations of Cotton, Wool, Fiber Crops, Silk, Cloth, Fine Cloth, Leather, and Synthetic Fibers, with appropriate processing. The same principle applies across furniture, construction, vehicles, machinery, electronics, electrical applications, rubber applications, and consumer goods. Wood, metals, plastics, glass, paper, rubber, leather, and natural or synthetic materials are assessed according to their suitability. These alternatives do not constitute fixed recipes.
 
-Step 1, raw goods and natural resources, is complete [APPROVED]. The finalized raw-material list contains 78 entries: 52 existing EU5 reference entries and 26 APPROVED modern additions, including Manganese (entry 59). The current work stage is step 2: processed, intermediate, and final goods. Detailed production-chain design follows in step 3; the already approved initial chains remain authoritative.
+## 2. Raw Materials
 
-2. Raw Materials Review and Modern Expansion
+The raw-material catalogue contains 52 existing EU5 reference goods and 26 modern additions. Resource applications include industrial processes and end uses as well as traded goods.
 
-2.1 Working Principle
-The existing EU5 reference list used for this design contains 52 raw materials. The mod should retain this level of granularity as its minimum reference point, but it should not split resources merely for realism. A new raw material is justified only when it creates a distinct geographic dependency, strategic bottleneck, production chain, or policy problem that cannot be represented adequately by an existing good. Lumber remains one general raw material rather than being divided into wood species.
+### Existing EU5 Resources
 
-The list below is the finalized raw-material selection [APPROVED]. Existing goods are marked VANILLA. All 26 modern additions are marked APPROVED. Listed uses describe possible production-chain roles; they do not approve particular buildings, production methods, quantities, or additional produced goods.
+1. **Horses** — breeding and transport animals; equestrian services; limited military, police, agricultural, sporting, and cultural use.
+2. **Clay** — masonry, ceramics, porcelain, cement additives, and industrial processing.
+3. **Sand** — glass, cement and concrete applications, silicon feedstock, and construction aggregates.
+4. **Coal** — electricity, steel, basic chemicals, industrial heat, and synthetic fuel routes.
+5. **Iron** — steel, tools, machinery, vehicles, construction, and weapons.
+6. **Copper** — electronic components and electrical equipment, wiring, motors, plumbing, and ammunition.
+7. **Gold** — jewelry, electronics, financial reserves, precision components.
+8. **Silver** — jewelry, electronics, photovoltaics, medical products, chemicals.
+9. **Stone** — aggregates, concrete inputs, road construction, general building materials.
+10. **Tin** — solder, tinplate, bronze, chemicals, electronics.
+11. **Lead** — batteries, radiation shielding, ammunition, alloys, industrial chemicals.
+12. **Silk** — textiles, luxury clothing, technical fabrics, medical sutures.
+13. **Dyes** — textile dyes, pigments, paints, printing inks, chemical colorants.
+14. **Incense** — fragrances, religious uses, cosmetics, and traditional medicines.
+15. **Tea** — beverages, extracts, packaged consumer goods.
+16. **Cocoa** — cocoa, chocolate-related consumption, confectionery uses, beverages, and cosmetics; relevant processing is represented within this raw-good category.
+17. **Coffee** — roasted coffee, beverages, extracts, packaged consumer goods.
+18. **Fiber Crops** — flax, hemp, jute, and similar fibers for textiles, rope, paper, and industrial uses.
+19. **Ivory** — legacy luxury and craft uses; modern trade should be highly restricted or prohibited.
+20. **Lumber** — furniture, paper, housing, construction, and other wood uses; processing is represented within production methods.
+21. **Salt** — food processing, basic chemicals, road treatment, and water treatment.
+22. **Medicaments** — medicine, medicinal plants, natural pharmaceutical inputs, extracts, and traditional remedies; pharmaceutical processing is represented within this existing good.
+23. **Gems** — jewelry, cutting tools, and industrial precision applications.
+24. **Pearls** — jewelry and luxury goods.
+25. **Amber** — jewelry, decorative goods, niche chemicals and cultural products.
+26. **Saltpeter** — fertilizers, explosives, propellants, specialty chemicals.
+27. **Alum** — water treatment, paper, textiles, leather processing, chemicals.
+28. **Wine** — bottled wine, spirits inputs, food processing, hospitality and export consumption.
+29. **Elephants** — tourism, cultural use and protected wildlife; no major modern industrial chain.
+30. **Marble** — decorative stone, monuments, premium construction, interior finishes.
+31. **Mercury** — specialty instruments, chemicals, mining processes and legacy industrial uses; strongly regulated.
+32. **Saffron** — food, fragrances, cosmetics, specialty extracts.
+33. **Pepper** — processed spices, food manufacturing, extracts.
+34. **Cloves** — processed spices, food, fragrances, traditional medicines.
+35. **Chili** — food processing, spices, sauces, extracts.
+36. **Cotton** — yarn, cloth, clothing, medical textiles, household textiles.
+37. **Sugar** — food, beverages, fuel routes, industrial fermentation, and basic chemicals.
+38. **Tobacco** — cigarettes, cigars, nicotine products and regulated consumer goods.
+39. **Wool** — yarn, cloth, clothing, carpets, insulation.
+40. **Wild Game** — food, hides, tourism and regulated hunting products.
+41. **Fur** — clothing and luxury goods; modern demand and legality vary greatly.
+42. **Fish** — fresh and processed food, fishmeal, fish oil, aquaculture inputs.
+43. **Wheat** — grain-based nutrition, food processing, animal-feed uses, and fuel routes.
+44. **Maize** — food, animal-feed uses, fuel routes, and possible biobased plastics production.
+45. **Rice** — food, food processing, beverages, and animal-feed uses.
+46. **Sturdy Grains** — barley, rye, oats, millet and similar grains into food, feed, malt, beer and spirits.
+47. **Legumes** — food, protein products, animal feed, oils where applicable.
+48. **Potatoes** — food, food processing, alcohol production, and animal-feed uses.
+49. **Livestock** — meat and dairy provision, leather, wool where relevant, fats, fertilizers, and food processing.
+50. **Olives** — edible olives, food processing, and cosmetics.
+51. **Fruit** — fresh and processed food, juices, preserves, fermentation, flavorings.
+52. **Beeswax** — wax-related consumption, honey-related uses, cosmetics, pharmaceutical applications, and polishes; relevant processing is represented within this existing good.
 
-2.2 Existing EU5 Raw Materials and Modern Production Chains
-1. Horses [VANILLA] — breeding and transport animals; equestrian services; limited military, police, agricultural, sporting, and cultural use.
-2. Clay [VANILLA] — bricks, tiles, ceramics, sanitary ware, cement additives, refractory products.
-3. Sand [VANILLA] — glass, concrete, foundry materials, silicon feedstock, construction aggregates.
-4. Coal [VANILLA] — electricity, coke, steel, chemicals, industrial heat, synthetic fuels.
-5. Iron [VANILLA] — pig iron, steel, tools, machinery, vehicles, construction materials, weapons.
-6. Copper [VANILLA] — wiring, electrical equipment, electronics, motors, plumbing, alloys, ammunition.
-7. Gold [VANILLA] — jewelry, electronics, financial reserves, precision components.
-8. Silver [VANILLA] — jewelry, electronics, photovoltaics, medical products, chemicals.
-9. Stone [VANILLA] — aggregates, concrete inputs, road construction, general building materials.
-10. Tin [VANILLA] — solder, tinplate, bronze, chemicals, electronics.
-11. Lead [VANILLA] — batteries, radiation shielding, ammunition, alloys, industrial chemicals.
-12. Silk [VANILLA] — textiles, luxury clothing, technical fabrics, medical sutures.
-13. Dyes [VANILLA] — textile dyes, pigments, paints, printing inks, chemical colorants.
-14. Incense [VANILLA] — fragrances, religious goods, cosmetics, traditional medicines.
-15. Tea [VANILLA] — beverages, extracts, packaged consumer goods.
-16. Cocoa [VANILLA] — chocolate, confectionery, beverages, cosmetics.
-17. Coffee [VANILLA] — roasted coffee, beverages, extracts, packaged consumer goods.
-18. Fiber Crops [VANILLA] — flax, hemp, jute and similar fibers into textiles, rope, composites, paper, insulation.
-19. Ivory [VANILLA] — legacy luxury and craft uses; modern trade should be highly restricted or prohibited.
-20. Lumber [VANILLA] — sawn wood, panels, pulp, paper, furniture, housing, packaging, construction.
-21. Salt [VANILLA] — food processing, chemicals, chlorine, soda ash, road treatment, water treatment.
-22. Medicaments [VANILLA] — medicinal plants and basic natural inputs into pharmaceuticals, extracts, cosmetics and traditional remedies.
-23. Gems [VANILLA] — jewelry, cutting tools, abrasives, optical and precision applications.
-24. Pearls [VANILLA] — jewelry and luxury goods.
-25. Amber [VANILLA] — jewelry, decorative goods, niche chemicals and cultural products.
-26. Saltpeter [VANILLA] — fertilizers, explosives, propellants, specialty chemicals.
-27. Alum [VANILLA] — water treatment, paper, textiles, leather processing, chemicals.
-28. Wine [VANILLA] — bottled wine, spirits inputs, food processing, hospitality and export consumption.
-29. Elephants [VANILLA] — tourism, cultural use and protected wildlife; no major modern industrial chain.
-30. Marble [VANILLA] — decorative stone, monuments, premium construction, interior finishes.
-31. Mercury [VANILLA] — specialty instruments, chemicals, mining processes and legacy industrial uses; strongly regulated.
-32. Saffron [VANILLA] — food, fragrances, cosmetics, specialty extracts.
-33. Pepper [VANILLA] — processed spices, food manufacturing, extracts.
-34. Cloves [VANILLA] — processed spices, food, fragrances, traditional medicines.
-35. Chili [VANILLA] — food processing, spices, sauces, extracts.
-36. Cotton [VANILLA] — yarn, cloth, clothing, medical textiles, household textiles.
-37. Sugar [VANILLA] — food, beverages, ethanol, industrial fermentation, chemicals.
-38. Tobacco [VANILLA] — cigarettes, cigars, nicotine products and regulated consumer goods.
-39. Wool [VANILLA] — yarn, cloth, clothing, carpets, insulation.
-40. Wild Game [VANILLA] — food, hides, tourism and regulated hunting products.
-41. Fur [VANILLA] — clothing and luxury goods; modern demand and legality vary greatly.
-42. Fish [VANILLA] — fresh and processed food, fishmeal, fish oil, aquaculture inputs.
-43. Wheat [VANILLA] — flour, bread, pasta, animal feed, starch, ethanol.
-44. Maize [VANILLA] — food, animal feed, starch, sweeteners, ethanol, bioplastics.
-45. Rice [VANILLA] — food, flour, starch, beverages, animal feed.
-46. Sturdy Grains [VANILLA] — barley, rye, oats, millet and similar grains into food, feed, malt, beer and spirits.
-47. Legumes [VANILLA] — food, protein products, animal feed, oils where applicable.
-48. Potatoes [VANILLA] — food, starch, alcohol, processed foods, animal feed.
-49. Livestock [VANILLA] — meat, milk, leather, wool where relevant, fats, fertilizer, processed foods.
-50. Olives [VANILLA] — edible olives, olive oil, food processing, soaps, cosmetics.
-51. Fruit [VANILLA] — fresh and processed food, juices, preserves, fermentation, flavorings.
-52. Beeswax [VANILLA] — honey-related goods, wax products, cosmetics, pharmaceuticals, polishes.
+### Modern Resources
 
-2.3 Additional Raw Materials for a Modern Economy
-53. Crude Oil [APPROVED] — refinery products, gasoline, diesel, jet fuel, marine fuel, lubricants, petrochemicals, plastics, synthetic fibers, asphalt.
-54. Natural Gas [APPROVED] — electricity, heating, industrial heat, hydrogen, ammonia, fertilizers, methanol, chemicals.
-55. Uranium [APPROVED] — nuclear fuel, electricity generation, military nuclear programs and strategic stockpiles.
-56. Bauxite [APPROVED] — alumina, aluminium, transport equipment, aircraft, packaging, construction, electrical products.
-57. Nickel [APPROVED] — stainless steel, superalloys, batteries, plating, machinery.
-58. Zinc [APPROVED] — galvanised steel, brass, batteries, chemicals, construction products.
-59. Manganese [APPROVED] — a distinct raw material for steelmaking, steel alloys, batteries, and chemicals. Its use in production methods for the existing Steel good will be developed later. Exact consumption quantities and whether particular methods require Manganese remain PENDING; the approved basic Steel chain remains unchanged.
-60. Chromium [APPROVED] — stainless steel, superalloys, plating, pigments, refractory products.
-61. Cobalt [APPROVED] — batteries, superalloys, catalysts, magnets, military and aerospace equipment.
-62. Lithium [APPROVED] — batteries, glass, ceramics, lubricants, specialty chemicals.
-63. Rare Earth Elements [APPROVED] — permanent magnets, electronics, wind turbines, electric vehicles, optics, catalysts, defense systems.
-64. Phosphate [APPROVED] — natural phosphate-bearing deposits; phosphate fertilizers, animal feed additives, industrial phosphates and chemicals.
-65. Potash [APPROVED] — potassium fertilizers and industrial potassium chemicals.
-66. Sulfur [APPROVED] — sulfuric acid, fertilizers, chemicals, explosives, petroleum refining, rubber vulcanisation.
-67. Natural Rubber [APPROVED] — raw input for the natural production route to Rubber; Rubber is the single processed good used in tires, seals, hoses, medical goods, and industrial components.
-68. Rapeseed [APPROVED] — a distinct oil-crop raw material; accepted as a possible input by the food, fuel, and animal-feed industries. See section 2.8.
-69. Platinum-Group Metals [APPROVED] — catalytic converters, chemical catalysts, electronics, jewelry, hydrogen technologies, medical equipment.
-70. Titanium Minerals [APPROVED] — titanium metal, aircraft, military equipment, medical implants, pigments.
-71. Tungsten [APPROVED] — cutting tools, hard metals, high-temperature alloys, electronics, ammunition.
-72. Molybdenum [APPROVED] — alloy steel, catalysts, lubricants, chemicals.
-73. Graphite [APPROVED] — batteries, electrodes, refractories, lubricants, advanced materials.
-74. Fluorspar [APPROVED] — fluorochemicals, aluminium processing, steelmaking, refrigerants and nuclear-fuel processing.
-75. Specialty Ores [APPROVED] — grouped raw ore category representing antimony, niobium and tantalum ores. These ores feed later production of specialty metals used in electronics, semiconductors, advanced alloys, defense systems and other high-technology industries. Gallium, germanium and indium are not separate RGOs and are represented later through processing chains.
-76. Soybeans [APPROVED] — a distinct oil-crop raw material; accepted as a possible input by the food, fuel, and animal-feed industries. See section 2.8.
-77. Sunflowers [APPROVED] — a distinct oil-crop raw material; accepted as a possible input by the food, fuel, and animal-feed industries. See section 2.8.
-78. Oil Palm [APPROVED] — a distinct oil-crop raw material; accepted as a possible input by the food, fuel, and animal-feed industries. See section 2.8.
+53. **Crude Oil** — fuel, lubricants, plastics, synthetic fibers, basic chemicals, synthetic Rubber production, and bitumen; direct input to refinery and chemical production methods.
+54. **Natural Gas** — direct gas use, electricity, heating, industrial heat, hydrogen, fertilizers, and basic chemicals.
+55. **Uranium** — nuclear fuel, electricity generation, military nuclear programs and strategic stockpiles.
+56. **Bauxite** — aluminium production and its downstream industrial uses.
+57. **Nickel** — stainless steel, superalloys, batteries, plating, machinery.
+58. **Zinc** — galvanised steel, brass, batteries, chemicals, construction products.
+59. **Manganese** — steelmaking, steel alloys, batteries, and basic chemicals; material input for Steel production-method design.
+60. **Chromium** — stainless steel, superalloys, plating, pigments, refractory products.
+61. **Cobalt** — batteries, superalloys, catalysts, magnets, military and aerospace equipment.
+62. **Lithium** — batteries, glass, ceramics, lubricants, specialty chemicals.
+63. **Rare Earth Elements** — electronics, magnet applications, energy and transport technologies, optics, catalysts, and defense systems; processing is represented within production methods.
+64. **Phosphate** — natural phosphate-bearing deposits for fertilizers, animal-feed additives, and industrial chemical uses.
+65. **Potash** — potassium fertilizers and industrial potassium chemicals.
+66. **Sulfur** — basic chemicals, fertilizers, explosives, petroleum refining, and rubber vulcanisation.
+67. **Natural Rubber** — raw input for the natural production route to Rubber, used in tires, seals, hoses, medical applications, and industrial components.
+68. **Rapeseed** — a distinct oil crop usable by the food, fuel, and animal-feed industries.
+69. **Platinum-Group Metals** — catalytic converters, chemical catalysts, electronics, jewelry, hydrogen technologies, and medical applications.
+70. **Titanium Minerals** — titanium-related aircraft, military, medical, pigment, and other industrial applications.
+71. **Tungsten** — cutting tools, hard metals, high-temperature alloys, electronics, ammunition.
+72. **Molybdenum** — alloy steel, catalysts, lubricants, chemicals.
+73. **Graphite** — batteries, electrodes, refractories, lubricants, advanced materials.
+74. **Fluorspar** — basic chemicals, aluminium processing, steelmaking, refrigerants, and nuclear-fuel processing.
+75. **Specialty Ores** — grouped category for antimony, niobium, and tantalum ores, also abstracting gallium, germanium, indium, and downstream titanium-metal representation. Direct material input for downstream production methods, including Electronic Components; metallurgical processing is abstracted within those methods. Titanium Minerals remains a distinct raw material.
+76. **Soybeans** — a distinct oil crop usable by the food, fuel, and animal-feed industries.
+77. **Sunflowers** — a distinct oil crop usable by the food, fuel, and animal-feed industries.
+78. **Oil Palm** — a distinct oil crop usable by the food, fuel, and animal-feed industries.
 
-2.4 Current Raw-Material Summary
-* Existing EU5 raw materials in the reference list: 52.
-* Modern raw materials: 26.
-* APPROVED modern additions: 26.
-* PENDING modern additions: 0.
-* Total raw-material entries: 78.
+### Food and Oil Crops
 
-The raw-material list is finalized [APPROVED] following owner approval of Manganese (entry 59). The former collective Oil Crops category is replaced in full by four distinct raw materials: Rapeseed, Soybeans, Sunflowers, and Oil Palm. Existing broader categories such as Lumber, Livestock, Fruit, Rare Earth Elements, and Specialty Ores remain intact; the approved oil-crop split does not authorize further category splits.
+Basic nutrition is represented through suitable existing food RGOs. Food processing is abstracted within relevant production methods without a mandatory traded processing stage. Livestock includes basic meat and dairy provision. The same nutritional contribution is counted only once.
 
-Source note: the vanilla list and count are based on the EU5 goods reference for version 1.2.1, which records 52 raw materials and 22 produced goods.
+Rapeseed, Soybeans, Sunflowers, and Oil Palm are four distinct raw materials. Every one of these crops is a possible input in each of the food, fuel, and animal-feed industries. Production methods can differ in efficiency and cost; extraction and feed processing are represented within those methods.
 
-2.5 Production-Chain Depth Principle [APPROVED]
-There is no fixed number of production stages for every good. Each production chain must be only as deep as required for meaningful gameplay. A distinct intermediate good should be introduced when it has independent strategic or economic importance, is traded or stockpiled meaningfully, or serves as an input for several different industries. Where an additional stage would add complexity without meaningful gameplay, production should proceed directly from the raw material to the produced good. The final design process must nevertheless result in one complete authoritative list of all processed, intermediate, and final goods.
+## 3. Processed, Intermediate, and Final Goods
 
-2.6 Production Methods Before Goods Proliferation [LOCKED]
-The mod introduces a new produced good only when it represents a distinct economic, strategic, or gameplay-relevant category that cannot be represented adequately through production methods.
-Differences in quality, technology, efficiency, production process, material composition, recycling, automation, or comparable industrial improvements should, wherever possible, be represented through production methods rather than through additional goods.
-Production methods may require additional raw materials or intermediate goods, use different energy sources, increase or decrease output, change production costs, alter labor requirements, and create other gameplay effects defined elsewhere.
-Goods such as Steel, Aluminium, Paper, Glass, Cement, and comparable industrial products therefore remain single goods unless a later explicit decision establishes a separate category. Modern production technologies and specialised material inputs change their production methods rather than creating separate quality variants.
-Example — Steel Production
-Steel remains one produced good. Different production methods may use different combinations of Iron, Coal, Electricity, Nickel, Chromium, Molybdenum, Tungsten, or other approved inputs. Manganese is also an approved raw material for later Steel production-method design; its consumption quantities and whether particular methods require it remain PENDING. Basic methods produce Steel from Iron with Coal and/or Electricity. More advanced methods may consume additional alloying or technological inputs and produce a higher quantity of Steel. Separate goods such as Stainless Steel, Tool Steel, or Armour Steel are not created.
-This rule is LOCKED and applies across the goods and production design unless explicitly revised later.
-Owner-approved specific distinction: Cloth and Fine Cloth remain two separate goods (secondary entries 4 and 5). This does not authorize additional textile-quality goods or revise the single-good rules for Steel, Aluminium, or Rubber.
+1. **Beer** — One consumer good for households and hospitality. Styles and quality differences are represented through production methods.
+2. **Books** — Finished good for education, information, and household consumption, distinct from Paper.
+3. **Artillery** — Distinct military equipment good.
+4. **Cloth** — Textile intermediate for clothing and technical textile uses, with suitable material alternatives represented through production methods.
+5. **Fine Cloth** — A separate textile good alongside Cloth. Suitable material alternatives are represented through production methods.
+6. **Small Arms** — Military, police, and possible civilian small arms within one good.
+7. **Furniture** — Finished good for households, offices, and institutions. Material and quality differences are represented through production methods.
+8. **Glass** — One good for construction, packaging, and industrial uses. Specialised glass is represented through production methods.
+9. **Jewelry** — One luxury consumer good for jewelry using precious metals and gems.
+10. **Leather** — Intermediate for clothing, footwear, furniture, vehicle upholstery, and industrial uses.
+11. **Liquor** — One consumer good for spirits, distinct from Beer and Wine. Different spirits are represented through production methods.
+12. **Masonry** — Construction-input good including bricks and tiles. Cement is a distinct good.
+13. **Naval Supplies** — A distinct naval supply good. Its detailed modern coverage and construction or maintenance role are unspecified.
+14. **Paper** — Intermediate and consumer good for printing, administration, packaging, and households. Quality differences are represented through production methods.
+15. **Porcelain** — Separate household and equipment good alongside Ceramics.
+16. **Ceramics** — Household and industrial ceramic products, with Porcelain represented separately.
+17. **Slaves** — Existing category for modern slavery and forced labor, with possible representation of forced migration for labor exploitation. The modern name and implementation mechanics are unspecified.
+18. **Steel** — One industrial material good. Basic production uses Iron with Coal and/or Electricity. Advanced production methods may use additional alloying or technological inputs and increase output within the same good.
+19. **Bitumen** — Intermediate for road construction and waterproofing, including asphalt.
+20. **Tools** — Distinct good for industrial, agricultural, and household tools; serves production, equipment, and consumption uses.
+21. **Aluminium** — One industrial material good for construction, transport equipment, aircraft, packaging, electrical applications, machinery, and other industries. Basic chain: Bauxite + Electricity → Aluminium.
+22. **Rubber** — One processed good from natural and synthetic production routes, used directly for tires, seals, hoses, and other rubber components.
+23. **Electricity** — Distinct good for industry, households, and production methods.
+24. **Fuel** — One good covering gasoline, diesel, aviation fuel, marine fuel, heating fuels, and corresponding transport, machinery, and heating uses. Production routes differ through production methods. Each of the four oil crops is a possible fuel-industry input. Natural Gas remains a distinct raw material for direct gas use.
+25. **Nuclear Fuel (Brennstäbe)** — Distinct fuel-rod good for nuclear electricity generation, separate from Fuel. Basic chain: Uranium → Nuclear Fuel (Brennstäbe) → Nuclear Power Plant → Electricity.
+26. **Hydrogen** — Distinct good for industrial and potential energy and transport uses.
+27. **Lubricants** — Distinct good for machinery, vehicles, and industry.
+28. **Plastics** — One broad material good. Fossil and possible biobased routes are represented through production methods.
+29. **Synthetic Fibers** — Distinct intermediate grouping fibers such as polyester, nylon, and acrylic. Alternative material input for textile and clothing production and other suitable uses.
+30. **Basic Chemicals** — One broad industrial-input good encompassing sulfuric acid, ammonia, methanol, chlorine, soda ash, and fluorochemicals.
+31. **Fertilizers** — One agricultural-input good. Nutrient and process differences are represented through production methods.
+32. **Explosives** — Distinct good for industrial and military uses, separate from Ammunition.
+33. **Silicon** — Distinct processed material for electronics and potential solar-production uses. Grades are represented through production methods.
+34. **Cement** — One combined construction-input good covering cement and concrete.
+35. **Cosmetics and Fragrances** — One consumer good combining cosmetics and fragrances.
+36. **Machinery** — Distinct industrial equipment and capital good, separate from Tools.
+37. **Electronic Components** — One good encompassing electronic components and electrical equipment. Specialty Ores is a direct downstream material input, with metallurgical processing abstracted within production methods.
+38. **Consumer Electronics** — Distinct finished consumer good, separate from Electronic Components.
+39. **Batteries** — One good. Different chemistries and material inputs are represented through production methods.
+40. **Vehicles** — One combined good for cars and commercial vehicles. Vehicle and propulsion differences are represented through production methods.
+41. **Aircraft** — Distinct aircraft good; detailed civilian and military coverage is unspecified.
+42. **Ammunition** — Distinct military consumable good, separate from Small Arms, Artillery, and Explosives.
 
-**Material-substitution principle [APPROVED]:** Wherever one intermediate or final good can realistically be manufactured using different approved raw materials or intermediate goods, production methods should offer meaningful alternative input combinations instead of requiring a separate version of the output for each material. Alternative methods may differ in input quantities, efficiency, cost, technology, availability and energy needs. For textile and clothing chains, suitable inputs may include Cotton, Wool, Fiber Crops (including hemp and flax), Silk, Cloth, Fine Cloth, Leather and the separately approved Synthetic Fibers, with appropriate intermediate processing steps. Apply the same principle consistently across all relevant sectors, including Furniture, Packaging, Construction, Vehicles, Machinery, Electronics and Electrical Equipment, and relevant Rubber Components and other consumer goods. Realistic combinations of wood, metals, plastics, glass, paper, rubber, leather or natural versus synthetic materials should be assessed when each chain is designed. This does not approve every possible substitution, any new good, or specific recipes; exact production stages and inputs/outputs remain PENDING until individually reviewed.
+## 4. Established Basic Production Chains
 
-2.7 Approved Produced Goods and Initial Production Chains
-Steel [APPROVED] — one produced good. Basic production uses Iron with Coal and/or Electricity. More advanced production methods may consume additional approved inputs and increase Steel output without creating separate steel-quality goods.
-Aluminium [APPROVED] — a distinct produced good. Its basic production chain is Bauxite + Electricity → Aluminium. Aluminium is used by construction, transport equipment, aircraft, packaging, electrical products, machinery, and other industries. Different technologies or additives should be represented through production methods rather than separate aluminium goods.
+| Output | Basic production chain |
+| --- | --- |
+| Steel | Iron + Coal and/or Electricity → Steel |
+| Aluminium | Bauxite + Electricity → Aluminium |
+| Rubber — natural route | Natural Rubber → Rubber |
+| Rubber — synthetic route | Crude Oil → Chemical Industry → Rubber |
+| Nuclear electricity | Uranium → Nuclear Fuel (Brennstäbe) → Nuclear Power Plant → Electricity |
 
-Rubber [APPROVED] — one processed trade good with two alternative production routes:
-* Natural route: Natural Rubber → Rubber.
-* Synthetic route: Crude Oil → Chemical Industry → Rubber.
+Both Rubber routes produce the same good. Chemical Industry denotes a production route rather than an intermediate trade good. These basic chains specify no quantities or complete recipes.
 
-Both routes produce the same Rubber good. There is no additional trade good named Synthetic Rubber. Chemical Industry describes the production route, not an approved intermediate trade good. The exact name and full function of the chemical factory remain PENDING, as do input quantities, other possible intermediate products, buildings, and detailed production methods.
+## 5. Shipbuilding and Maritime Transport
 
-2.8 Four Distinct Oil-Crop Inputs [APPROVED]
-Rapeseed, Soybeans, Sunflowers, and Oil Palm are four separate raw materials. Every one of these four crops must be usable as a possible input in every one of the following industries:
-
-1. Food industry.
-2. Fuel industry.
-3. Animal-feed industry.
-
-Production methods may differ in efficiency and cost. The exact buildings, production methods, input quantities, and output quantities remain PENDING. This decision does not yet define the complete processed-goods catalogue or authorize additional intermediate goods.
-
-2.9 Outstanding Goods and Production Decisions [PENDING]
-* The complete processed, intermediate, and final goods catalogue beyond the decisions already recorded above.
-* Detailed production chains, buildings, production methods, technologies, input quantities, output quantities, efficiency, and costs.
-* The exact name and full function of the chemical factory, including possible intermediate goods for the synthetic Rubber route.
-
-3. Processed, Intermediate, and Final Goods Review
-
-3.1 Individual Review Procedure [APPROVED]
-At the owner's request, review every existing EU5 produced good individually before reviewing modern additions individually. For each good, discuss retention, renaming, merging, or removal; its modern economic role; and the appropriate level of abstraction. Obtain an owner decision before marking a proposal APPROVED. Detailed chains, buildings, quantities, and production methods remain for the later design stages unless already approved.
-Previously approved Steel, Aluminium, and Rubber decisions remain authoritative and are not reopened automatically. Fuel is APPROVED as one good (section 3.4). Entries 21–50 are decided, including removal of Coke (29) as a separate trade good; the current review block is 51–60: entries 51–53 and 60 are removed as separate goods, while 54–59 remain PENDING. Lacquerware (10) and Naval Supplies (14) remain deferred, and implementation of provisionally retained Slaves (18) remains PENDING.
-
-3.2 Processed, Intermediate, and Final Goods — Consolidated Review List
-Source for the 22 existing goods: [EU5DB game-file goods reference](https://eu5db.com/goods), checked on 9 October 2026. The displayed version was not independently confirmed as 1.2.1; reconcile with the target build during implementation.
-
-This is an intentionally broad discussion list, not the final goods count or an approval to implement every row. It replaces the earlier vanilla-only roster. IDs 1–22 retain the existing review order; modern additions continue from 23. Every unapproved item is PENDING. Possible overlaps and grouped alternatives must be reviewed individually, merged, retained, or rejected by owner decision.
-
-Role notation: I = proposed intermediate/production input; F = proposed final consumption, equipment, or capital good. All listed goods are processed goods in this review; I and F can overlap. Role labels and possible uses are provisional except where already approved. Origin references identify earlier mentions or newly inferred discussion proposals; they do not establish approved input-output recipes.
-
-Thirty-one catalogue entries currently have APPROVED decisions: Beer, Books, Artillery, Cloth, Fine Cloth, Small Arms, Furniture, Glass, Jewelry, Leather, Liquor, Masonry, Paper, Porcelain, Ceramics, Slaves (provisional retention only), Steel, Bitumen, Tools, Aluminium, Rubber, Electricity, Fuel, Nuclear Fuel (Brennstäbe), Hydrogen, Lubricants, Plastics, Synthetic Fibers, Basic Chemicals, Fertilizers, and Explosives. There are also 50 PENDING entries, 9 MERGED positions (22, 27, 36–41, 44), and 12 REMOVED positions (29, 31, 45–53, 60), for 102 discussion entries in total. The Slaves entry has no approved modern implementation; it requires separate, careful review. A statement that a category should remain one good (for example Cement) does not by itself approve its inclusion. There is no separate Synthetic Rubber entry and no new steel/aluminium quality variant.
-
-3.2.1 Existing EU5 Produced Goods
-
-1. Beer [APPROVED] — Retained as one consumer good for households and hospitality. Beer styles and quality differences may be represented through production methods; see section 3.3.
-2. Books [APPROVED] — Retained as a finished good for education, information, and household consumption, distinct from Paper.
-3. Artillery [APPROVED] — Renamed from the vanilla Cannon good. Retained as a distinct military equipment good. Exact coverage of artillery types remains PENDING.
-4. Cloth [APPROVED] — Retained under the name Cloth as an intermediate good for Clothing. It is not renamed Textiles. Specific production chains remain PENDING. Apply the material-substitution principle in section 2.6 when assessing suitable alternative materials and intermediate processing; exact recipes remain PENDING.
-5. Fine Cloth [APPROVED] — Retained as a separate good alongside Cloth; not merged into Cloth. Its precise modern uses and production chain remain PENDING. Apply the material-substitution principle in section 2.6 when assessing suitable alternative materials and intermediate processing; exact recipes remain PENDING.
-6. Small Arms [APPROVED] — Modern interpretation of the vanilla Firearms good: military, police, and possible civilian small arms. Individual weapon types do not initially require separate goods.
-7. Furniture [APPROVED] — Retained as a finished good for households, offices, and institutions. Material and quality differences should be represented through production methods. Apply the material-substitution principle in section 2.6 when assessing suitable alternative materials and intermediate processing; exact recipes remain PENDING.
-8. Glass [APPROVED] — Retained as one good for construction, packaging, and industrial uses. Specialized glass should initially be represented through production methods; finished optical equipment is reviewed separately.
-9. Jewelry [APPROVED] — Retained as a distinct luxury consumer good using precious metals and gems. Different jewelry types remain within this one good.
-10. Lacquerware [PENDING] — Explicitly deferred by the owner. No decision to retain, merge, or remove this good has been approved.
-11. Leather [APPROVED] — Retained as an intermediate good for clothing, footwear, furniture, vehicle upholstery, and industrial uses. Detailed chains remain PENDING. Apply the material-substitution principle in section 2.6 when assessing suitable alternative materials and intermediate processing; exact recipes remain PENDING.
-12. Liquor [APPROVED] — Retained as one consumer good for spirits, distinct from Beer and Wine. Different spirits use production methods rather than separate goods.
-13. Masonry [APPROVED] — Retained under the name Masonry, not renamed Building Materials. Its precise scope and relationship to Cement, Concrete, Bricks, and Tiles remain PENDING.
-14. Naval Supplies [PENDING] — Explicitly deferred. Review its modern scope after deciding how ship construction and maintenance are represented; retention, merger, or replacement remains undecided.
-15. Paper [APPROVED] — Retained as an intermediate and consumer good for printing, administration, packaging, and households. Paper qualities should be represented through production methods.
-16. Porcelain [APPROVED] — Retained as a separate household and equipment good alongside Ceramics. Detailed production and industrial uses remain PENDING.
-17. Ceramics [APPROVED] — Renamed from vanilla Pottery. Retained for household and industrial ceramic products, excluding the separately retained Porcelain good. Detailed chains remain PENDING.
-18. Slaves [APPROVED] — Provisional retention of the existing entry only. The owner requires separate, careful discussion. Modern interpretation, economic role, acquisition, consumption, and all implementation mechanics remain PENDING; no modern trading or production mechanism is approved.
-19. Steel [APPROVED] — APPROVED single good; approved basic chain in section 2.7. Proposed role: intermediate/production input.
-20. Bitumen [APPROVED] — Renamed from vanilla Tar. Retained as an intermediate for road construction and waterproofing. Whether Asphalt requires a separate processed good remains PENDING.
-21. Tools [APPROVED] — Retained as a distinct trade good for industrial, agricultural, and household tools. Role: intermediate/production input and final consumption or equipment. Exact recipes remain PENDING.
-22. Weaponry [MERGED → 6] — No additional trade-good category; the relevant modern scope is covered by Small Arms (entry 6). Artillery remains separate; other military goods will be reviewed later.
-
-3.2.2 Approved Modern Additions
-
-23. Aluminium [APPROVED] — One good; Bauxite + Electricity → Aluminium remains approved. Proposed role: intermediate/production input. Origin: RGO 56; section 2.7.
-24. Rubber [APPROVED] — One processed good from natural or synthetic routes; no separate Synthetic Rubber good. Proposed role: intermediate/production input. Origin: RGO 53, 67; section 2.7.
-
-3.2.3 Energy and Chemical Products
-
-25. Electricity [APPROVED] — Retained as a distinct good for industry, households, and production methods. Role: intermediate/production input and final consumption. Grid and market-distribution mechanics remain PENDING. Origin: RGO 4, 54, 55; approved Steel/Aluminium chains.
-26. Fuel [APPROVED] — One good for gasoline, diesel, aviation and marine fuels, heating fuels, and other corresponding fuels. Production routes differ through production methods; all four oil crops remain possible fuel-industry inputs. Nuclear Fuel is a separate approved exception. Exact recipes remain PENDING. Origin: RGO 53, 68, 76–78; section 3.4.
-27. Heating Fuels [MERGED → 26] — Included in Fuel; no separate heating-oil or heating-fuel trade good. Natural Gas remains a distinct RGO for direct gas use. Origin: RGO 53–54 use discussion.
-28. Nuclear Fuel (Brennstäbe) [APPROVED] — Retained as a distinct fuel-rod good and explicit exception to Fuel. Approved basic chain: Uranium → Nuclear Fuel (Brennstäbe) → Nuclear Power Plant → Electricity. Enrichment, fabrication details, quantities, and production methods remain PENDING. Role: intermediate/production input. Origin: RGO 55.
-29. Coke [REMOVED] — No separate Coke trade good or mandatory traded intermediate. Coal is used directly in Steel production; coking, where relevant, is abstracted within production methods. The approved basic Steel chain using Iron with Coal and/or Electricity remains unchanged (section 2.7). Detailed recipes remain PENDING. Origin: RGO 4.
-30. Hydrogen [APPROVED] — Retained as a distinct good for industrial and potential energy and transport uses. Concrete production and consumption chains remain PENDING. Role: intermediate/production input and potential final consumption or equipment use. Origin: RGO 54, 69.
-31. Petrochemical Feedstocks [REMOVED] — Removed as a separate trade good. Crude Oil may enter refinery and chemical production methods directly for Plastics, Synthetic Fibers, Basic Chemicals, and other individually reviewed outputs. Refineries and processing stages remain possible without an additional feedstock trade good. Exact recipes remain PENDING. Origin: RGO 53.
-32. Lubricants [APPROVED] — Retained as a distinct good for machinery, vehicles, and industry. Exact production and consumption recipes remain PENDING. Role: intermediate/production input and final consumption or equipment. Origin: RGO 53, 62, 72, 73.
-33. Plastics [APPROVED] — Retained as one broad good. Fossil and possible biobased routes are represented through production methods, without separate variant goods. Exact recipes remain PENDING. Role: intermediate/production input. Origin: RGO 53; RGO 44 bioplastics mention.
-34. Synthetic Fibers [APPROVED] — Retained as a distinct intermediate good grouping fibers such as polyester, nylon, and acrylic. Alternative material input for textile and clothing production and other suitable uses; not limited to clothing. Apply section 2.6 to alternative inputs with appropriate intermediate processing, preserving approved materials as distinct goods without automatically creating output variants. Exact stages and recipes remain PENDING. Origin: RGO 53.
-35. Basic Chemicals [APPROVED] — Retained as a broad distinct good, including the functions of Sulfuric Acid, Ammonia, Methanol, Chlorine, Soda Ash, and Fluorochemicals (entries 36–41), without separate trade goods for those chemicals. Exact recipes remain PENDING. Role: intermediate/production input. Origin: Multiple RGO chemical-use mentions.
-36. Sulfuric Acid [MERGED → 35] — Included in Basic Chemicals; no separate trade good. Specific production and consumption methods remain PENDING. Origin: RGO 66.
-37. Ammonia [MERGED → 35] — Included in Basic Chemicals; no separate trade good. Specific production and consumption methods remain PENDING. Origin: RGO 54.
-38. Methanol [MERGED → 35] — Included in Basic Chemicals; no separate trade good. Specific production and consumption methods remain PENDING. Origin: RGO 54.
-39. Chlorine [MERGED → 35] — Included in Basic Chemicals; no separate trade good. Specific production and consumption methods remain PENDING. Origin: RGO 21.
-40. Soda Ash [MERGED → 35] — Included in Basic Chemicals; no separate trade good. Specific production and consumption methods remain PENDING. Origin: RGO 21.
-41. Fluorochemicals [MERGED → 35] — Included in Basic Chemicals; no separate trade good. Specific production and consumption methods remain PENDING. Origin: RGO 74.
-42. Fertilizers [APPROVED] — Retained as one distinct agricultural-input good, without separate nutrient-specific goods. Exact recipes, quantities, and production methods remain PENDING. Role: intermediate/production input. Origin: RGO 26, 54, 64–66.
-43. Explosives [APPROVED] — Retained as a distinct good under the name Explosives, replacing the candidate label Explosives and Propellants. Intended for industrial and military uses; exact scope, recipes, and production methods remain PENDING. Ammunition remains a separate PENDING candidate (entry 98). Origin: RGO 26, 66.
-44. Paints, Pigments, and Inks [MERGED → RGO 13 Dyes] — Retain the existing Dyes good as the colorant category; no additional Paints, Pigments, and Inks trade good. This does not reclassify or duplicate the Dyes RGO. Exact production and consumption methods remain PENDING. Origin: RGO 13, 60, 70.
-45. Industrial Catalysts [REMOVED] — No separate trade good. Catalyst-related inputs and improvements may be represented within production methods; exact requirements remain PENDING. Origin: RGO 61, 63, 69, 72.
-
-3.2.4 Processed Metals and Industrial Materials
-
-46. Alumina [REMOVED] — No separate aluminium-oxide trade good or mandatory traded intermediate. The approved basic chain Bauxite + Electricity → Aluminium remains unchanged (section 2.7); processing is represented within production methods. Exact recipes remain PENDING. Origin: RGO 56.
-47. Refined Copper [REMOVED] — No separate refined-metal trade good; retain the existing Copper good as the direct material input. Research and production-method improvements are represented through increased production of the existing good rather than an additional refined good. Exact technologies, quantities, and methods remain PENDING. Origin: RGO 6 processing review.
-48. Refined Nickel [REMOVED] — No separate refined-metal trade good; retain the existing Nickel good as the direct material input. Research and production-method improvements are represented through increased production of the existing good rather than an additional refined good. Exact technologies, quantities, and methods remain PENDING. Origin: RGO 57 processing review.
-49. Refined Zinc [REMOVED] — No separate refined-metal trade good; retain the existing Zinc good as the direct material input. Research and production-method improvements are represented through increased production of the existing good rather than an additional refined good. Exact technologies, quantities, and methods remain PENDING. Origin: RGO 58 processing review.
-50. Refined Tin [REMOVED] — No separate refined-metal trade good; retain the existing Tin good as the direct material input. Research and production-method improvements are represented through increased production of the existing good rather than an additional refined good. Exact technologies, quantities, and methods remain PENDING. Origin: RGO 10 processing review.
-51. Refined Lead [REMOVED] — No separate refined-metal trade good; retain the existing Lead good as the direct material input, following the Copper and Nickel decisions. Research and production-method improvements increase production of the existing good. Exact technologies, quantities, and methods remain PENDING. Origin: RGO 11 processing review.
-52. Processed Battery Materials [REMOVED] — No separate processed-material trade good. Existing approved raw materials are used directly in battery production methods, with processing abstracted within those methods. This does not approve the Batteries candidate (92) or specific recipes. Exact technologies, quantities, and methods remain PENDING. Origin: RGO 57, 59, 61–62, 73.
-53. Processed Rare Earths [REMOVED] — No separate processed-material trade good; retain Rare Earth Elements as the direct material input. Processing and improvements are represented through research and production methods rather than an additional good. Exact technologies, quantities, and methods remain PENDING. Origin: RGO 63 processing review.
-54. Titanium Metal [PENDING] — Review distinct metal produced from Titanium Minerals. Proposed role: intermediate/production input. Origin: RGO 70.
-55. Specialty Metals [PENDING] — Review grouped output for antimony, niobium, and tantalum versus separate goods. Proposed role: intermediate/production input. Origin: RGO 75.
-56. Gallium [PENDING] — Separate processed-good candidate only; not a new RGO. Recovery chain PENDING. Proposed role: intermediate/production input. Origin: RGO 75 explicit downstream-processing mention.
-57. Germanium [PENDING] — Separate processed-good candidate only; not a new RGO. Recovery chain PENDING. Proposed role: intermediate/production input. Origin: RGO 75 explicit downstream-processing mention.
-58. Indium [PENDING] — Separate processed-good candidate only; not a new RGO. Recovery chain PENDING. Proposed role: intermediate/production input. Origin: RGO 75 explicit downstream-processing mention.
-59. Industrial Alloys [PENDING] — Review non-steel alloy category; no separate steel or aluminium quality goods authorized. Proposed role: intermediate/production input. Origin: RGO 6, 10, 11, 57–61, 69–72.
-60. Permanent Magnets [REMOVED] — No separate component trade good. Magnet production may be abstracted within equipment production methods using approved material inputs. Exact recipes and equipment categories remain subject to individual review. Origin: RGO 61, 63.
-61. Silicon [PENDING] — Review intermediate and production-method distinctions for electronics and solar uses. Proposed role: intermediate/production input. Origin: RGO 3 silicon-feedstock mention.
-62. Refractories and Abrasives [PENDING] — Review whether these need distinct goods or can be represented through industrial methods. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 2, 23, 60, 73.
-
-3.2.5 Construction and Wood Products
-
-63. Cement [PENDING] — Already mentioned as a single-good category; distinct inclusion remains for review. Proposed role: intermediate/production input. Origin: RGO 2, 9; section 2.6.
-64. Concrete [PENDING] — Review separate product versus construction consuming Cement and aggregates directly. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 3, 9.
-65. Bricks and Tiles [PENDING] — Review one category versus Masonry or ceramics. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 2.
-66. Asphalt [PENDING] — Review infrastructure input and overlap with Bitumen or construction materials. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 53.
-67. Processed Timber and Panels [PENDING] — Review sawn wood and panels versus direct Lumber consumption. Proposed role: intermediate/production input. Origin: RGO 20.
-68. Pulp [PENDING] — Review separate traded intermediate versus direct Paper production. Proposed role: intermediate/production input. Origin: RGO 18, 20.
-69. Insulation Materials [PENDING] — Review construction-input category versus material inputs in construction methods. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 18, 39.
-70. Packaging [PENDING] — Review separate output versus direct Paper, Glass, Aluminium, and Plastics inputs. Proposed role: intermediate/production input. Origin: RGO 20, 56; Glass/Paper use discussion. Apply the material-substitution principle in section 2.6 when assessing suitable alternative materials and intermediate processing; exact recipes remain PENDING. This does not approve this candidate.
-
-3.2.6 Food, Agriculture, and Household Goods
-
-71. Flour [PENDING] — Review intermediate for baking versus direct grain consumption. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 43, 45.
-72. Processed Food [PENDING] — Review broad food category versus separate Bread, Pasta, Preserves, and other products; all four oil crops must be usable in food industry. Proposed role: final consumption or equipment. Origin: RGO 15–17, 32–35, 40, 42–51; oil-crop rule.
-73. Meat Products [PENDING] — Review distinct processed meat versus raw Livestock and broad Processed Food. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 40, 49.
-74. Dairy Products [PENDING] — Review milk and processed dairy representation and overlap with Processed Food. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 49.
-75. Vegetable Oils [PENDING] — Review one oil category and whether it is needed between oil crops and consumers. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 50, 68, 76–78.
-76. Animal Feed [PENDING] — Review feed category; all four oil crops must be usable in feed industry. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 42–49, 64; oil-crop rule.
-77. Starch [PENDING] — Review distinct food and industrial input versus processing methods. Proposed role: intermediate/production input. Origin: RGO 43–45, 48.
-78. Ethanol [PENDING] — Review distinct intermediate versus Fuel, Liquor, or chemical production methods. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 37, 43–44.
-79. Non-Alcoholic Beverages [PENDING] — Review tea/coffee products and juices as common or separate goods. Proposed role: final consumption or equipment. Origin: RGO 15–17, 37, 51.
-80. Chocolate and Confectionery [PENDING] — Review separate consumer good versus Processed Food. Proposed role: final consumption or equipment. Origin: RGO 16, 37.
-81. Clothing and Footwear [PENDING] — Review finished garments and shoes versus existing textiles; possible split for discussion. Proposed role: final consumption or equipment. Origin: RGO 12, 18, 36, 39, 41; Leather. Apply the material-substitution principle in section 2.6 when assessing suitable alternative materials and intermediate processing; exact recipes remain PENDING. This does not approve this candidate.
-82. Technical Textiles [PENDING] — Review distinct industrial category versus Cloth production methods. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 12, 18, 36. Apply the material-substitution principle in section 2.6 when assessing suitable alternative materials and intermediate processing; exact recipes remain PENDING. This does not approve this candidate.
-83. Pharmaceuticals [PENDING] — Review processed medicine distinct from raw Medicaments. Proposed role: final consumption or equipment. Origin: RGO 22, 36, 52.
-84. Cosmetics and Fragrances [PENDING] — Review common consumer category versus separate cosmetic and fragrance goods. Proposed role: final consumption or equipment. Origin: RGO 14, 16, 22, 32, 52.
-85. Soaps and Cleaning Products [PENDING] — Review distinct consumer good versus broader chemical or household products. Proposed role: final consumption or equipment. Origin: RGO 50; additional household-gap proposal.
-86. Tobacco Products [PENDING] — Review processed product versus direct raw Tobacco consumption. Proposed role: final consumption or equipment. Origin: RGO 38.
-87. Wax Products [PENDING] — Review distinct processed good versus direct Beeswax input. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 52.
-
-3.2.7 Equipment, Transport, and Technology
-
-88. Machinery [PENDING] — Review industrial capital goods and distinction from Tools. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 5, 57; industrial-use mentions. Apply the material-substitution principle in section 2.6 when assessing suitable alternative materials and intermediate processing; exact recipes remain PENDING. This does not approve this candidate.
-89. Electrical Equipment [PENDING] — Review wiring, motors, and power equipment as one or multiple goods. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 6, 56. Apply the material-substitution principle in section 2.6 when assessing suitable alternative materials and intermediate processing; exact recipes remain PENDING. This does not approve this candidate.
-90. Electronic Components [PENDING] — Review semiconductor and component representation, including possible separate Semiconductors. Proposed role: intermediate/production input. Origin: RGO 6–8, 10, 63, 69, 71, 75. Apply the material-substitution principle in section 2.6 when assessing suitable alternative materials and intermediate processing; exact recipes remain PENDING. This does not approve this candidate.
-91. Consumer Electronics [PENDING] — Review finished household electronics versus components and industrial equipment. Proposed role: final consumption or equipment. Origin: RGO electronics mentions; final-product gap review. Apply the material-substitution principle in section 2.6 when assessing suitable alternative materials and intermediate processing; exact recipes remain PENDING. This does not approve this candidate.
-92. Batteries [PENDING] — Review one category with chemistry-specific production methods. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 11, 57, 59, 61–62, 73.
-93. Vehicles [PENDING] — Review cars and commercial vehicles, including possible separate categories. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 5, 56, 63; transport-use mentions. Apply the material-substitution principle in section 2.6 when assessing suitable alternative materials and intermediate processing; exact recipes remain PENDING. This does not approve this candidate.
-94. Aircraft [PENDING] — Review civilian and military product scope without creating quality variants automatically. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 56, 61, 70.
-95. Ships [PENDING] — Additional gap proposal: review finished vessels versus existing ship-construction mechanics. Proposed role: intermediate/production input and final consumption or equipment. Origin: Naval Supplies modernization; RGO transport-use mentions.
-96. Tires and Rubber Components [PENDING] — Review separate output versus direct Rubber consumption by final-goods producers. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 67. Apply the material-substitution principle in section 2.6 when assessing suitable alternative materials and intermediate processing; exact recipes remain PENDING. This does not approve this candidate.
-97. Medical Equipment [PENDING] — Review devices and consumables, including whether they need separate goods. Proposed role: final consumption or equipment. Origin: RGO 12, 36, 67, 69–70.
-98. Ammunition [PENDING] — Review separate military consumable and relationship to explosives and weapons. Proposed role: final consumption or equipment. Origin: RGO 6, 11, 26, 66, 71.
-99. Military Equipment [PENDING] — Review equipment not adequately covered by Artillery or Small Arms (Weaponry is merged into Small Arms); possible subdivisions PENDING. Proposed role: final consumption or equipment. Origin: RGO 5, 61, 63, 70, 75.
-100. Solar Equipment [PENDING] — Review separate capital good versus Electrical Equipment. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 8 photovoltaics mention.
-101. Wind-Power Equipment [PENDING] — Review separate capital good versus Machinery and Electrical Equipment. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 63 wind-turbine mention.
-102. Precision and Optical Equipment [PENDING] — Review instruments and optics versus existing equipment categories. Proposed role: intermediate/production input and final consumption or equipment. Origin: RGO 7, 23, 31, 63.
-
-3.2.9 Review-List Summary and Further Gap Checks
-* Existing EU5 produced goods under review: 22.
-* Additional modern goods or candidate categories: 80.
-* Total discussion entries: 102.
-* APPROVED catalogue entries: 31, including provisional retention only for Slaves (entry 18); its implementation remains PENDING.
-* PENDING catalogue entries: 50, including explicitly deferred Lacquerware (entry 10) and Naval Supplies (entry 14).
-* MERGED review positions: 9 — Weaponry (22 → 6), Heating Fuels (27 → 26), Sulfuric Acid, Ammonia, Methanol, Chlorine, Soda Ash, and Fluorochemicals (36–41 → 35), and Paints, Pigments, and Inks (44 → RGO 13 Dyes).
-* REMOVED review positions: 12 — Coke (29), Petrochemical Feedstocks (31), Industrial Catalysts (45), Alumina (46), Refined Copper, Nickel, Zinc, Tin, and Lead (47–51), Processed Battery Materials (52), Processed Rare Earths (53), and Permanent Magnets (60).
-* Status total: 31 APPROVED + 50 PENDING + 9 MERGED + 12 REMOVED = 102.
-
-These counts describe the review backlog, not the eventual implemented goods list. Grouped candidates may later split or merge only after an explicit decision. No complete-goods-list claim is made; add further missing goods as the individual reviews and RGO-to-consumer checks reveal them.
-
-Further gap checks [PENDING]: refined-metal stages for other RGOs, recycling and secondary-material routes, additional food-processing outputs, fertilizer/feed additives, transport-sector equipment, construction inputs, and consumer-product coverage. Check whether each needs an independent market or is better handled by existing goods and production methods. The existing Raw Materials list remains unchanged; goods such as Wine and Dyes are not silently reclassified or duplicated. Services, tourism, financial reserves, industrial heat, buildings, and infrastructure mentioned in RGO uses are not automatically physical trade goods; their representation requires later explicit review.
-
-3.3 Existing Good 1 — Beer [APPROVED]
-Decision: retain Beer as one distinct processed consumer good. Do not create separate goods for individual beer styles or quality levels. Its proposed modern role is household and hospitality consumption, with brewing as an agricultural-processing industry. The advantage of retention is a recognizable consumer market; the disadvantage is an additional market compared with an aggregated alcoholic-beverages good. Its relationship to Liquor and the existing raw-reference Wine entry will be reviewed without automatically merging them.
-Exact ingredients, production chains, brewery buildings, energy use, packaging inputs, output quantities, prices, taxation, and demand remain PENDING. Retention as a distinct good is APPROVED; the detailed production and consumption design remains PENDING.
-
-3.4 Fuel [APPROVED]
-Decision: retain one processed trade good, Fuel, covering gasoline, diesel, aviation fuel, marine fuel, heating fuels, and other corresponding fuels for transport, machinery, heating, and other uses. Differences in production routes belong in production methods rather than separate fuel goods. Heating Fuels (entry 27) is merged into Fuel. Natural Gas remains a separate RGO for direct gas use.
-Nuclear Fuel (Brennstäbe, entry 28) is an explicitly approved separate good, with the basic chain Uranium → Nuclear Fuel (Brennstäbe) → Nuclear Power Plant → Electricity. Enrichment and fabrication details remain PENDING.
-Rapeseed, Soybeans, Sunflowers, and Oil Palm must each remain possible fuel-industry inputs under section 2.8. Exact production routes, buildings, input quantities, output quantities, energy consumption, technology requirements, and distribution mechanics remain PENDING. Petrochemical Feedstocks (entry 31) is removed as a separate trade good; Crude Oil may enter refinery and chemical production methods directly. Lubricants and Plastics remain separate approved goods; the separate Asphalt candidate remains PENDING.
+Shipbuilding consumes materials directly. Merchant shipping is represented through transport costs. Naval Supplies is a distinct good whose detailed modern role is unspecified.
